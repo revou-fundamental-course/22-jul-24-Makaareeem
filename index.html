@@ -3,9 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Infinity Travel</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="assets/travelku.png" alt="TravelKu Logo"></a>        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#package">Our Package</a></li>
+                <li><a href="#call">Call Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="judul">
+            <h1>Your Trusted Travel Agent</h1>
+            <p>Your happiness is our happiness.</p>
+        </div>
+
+    <section id="home" class="content">
+        <div class="review">
+            <div class="slides">
+                <img src="assets/image1.jpg" alt="Slide 1" class="active">
+                <img src="assets/image2.jpeg" alt="Slide 2">
+                <img src="assets/image3.jpg" alt="Slide 3">
+            </div>
+
+            <div class="user">
+                <p>"Mengunjungi tempat ini seperti melangkah ke dalam dunia lain. Keindahan alam yang asri dan tenang memberikan kedamaian dan ketenangan yang sulit ditemukan di tempat lain."</p>
+                <div class="user-info">
+                    <img src="assets/image4.jpg" alt="user-img">
+                    <div class="detail">
+                    <span class="username"><b>Anonymous</b></span>
+                    <span class="info">new member</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+            <p>Sales akan menghubungi Anda selambat-lambatnya 1x24 jam setelah data kami terima.</p>
+            <form id="contactForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="interest">What are you interested in?</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select option</option>
+                    <option value="alone-package">Alone</option>
+                    <option value="family-package">Family</option>
+                    <option value="honeymoon-package">HoneyMoon</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- untuk package -->
+    <section id="package">
+        <div class="atas">
+            <div class="judul">
+                <p>Kami bekerja dengan KILAT</p>
+                <h1>WHENEVER and WHEREVER</h1>
+            </div>
+            <div class="container" id="advantage-container"></div>
+        </div>
     
+        <div class="tengah">
+            <div class="judul">
+                <h1>Our Services</h1>
+            </div>
+            <div class="package-list">
+                <div class="list">
+                    <img src="assets/package1.png" alt="Motor"/>
+                    <p>Alone Package</p>
+                </div>
+                <div class="list">
+                    <img src="assets/package2.png" alt="Mobil"/>
+                    <p>Family Package</p>
+                </div>
+                <div class="list">
+                    <img src="assets/package3.png" alt="Mobil pick up"/>
+                    <p>HoneyMoon package</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+    <div id="call">
+                <div class="footer-section">
+                    <h3>TravelKu</h3>
+                    <p>agen perjalanan terpercaya yang siap menjadikan liburan Anda tidak terlupakan. Dengan pengalaman bertahun-tahun dalam industri pariwisata, kami menawarkan berbagai paket liburan yang dirancang khusus untuk memenuhi kebutuhan dan keinginan Anda.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. Haji yahya, Cipinang Cempedak</p>
+                    <p>Kode Pos: 57646</p>
+                    <p>Telp : 08123456789</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>Instagram: </b> @TravelKu</p>
+                </div>
+        </div>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>TravelKu.</b> All Rights Reserved.
+        </div>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
